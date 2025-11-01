@@ -1,68 +1,54 @@
 <!doctype html>
 <html>
-<head>
-<meta charset="UTF-8">
-<title>Iñupiaq Numbers Homepage</title>
-	<style>img {width: 30%}</style>
-</head>
+	<head>
+	<meta charset="UTF-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1.0">
+	<link href="indexstyle.css" rel="stylesheet"/>
+	<title>Iñupiaq Numbers Homepage</title>
+	</head>
 
-<body>
-	<h1>Iñupiaq Numbers Information</h1>
-	
-	<p>This is a preliminary source of information about the Iñupiaq vocabulary for numbers, as well as my (very, very preliminary) program for practicing this vocabulary. The program includes modes vocabulary and basic math operations using Kaktovik numerals. Additions and refinement to both the information and the program will occur as time permits. The program is available in certain information sections, as well as the link at the bottom.</p>
-	
-	<h2>Practice App</h2>
-	
-	<p>The link below will open a new window to a practice app. If you are unfamiliar with the vocabulary or Kaktovik numeral system, you may want to check out the resources below.</p>
-	
-	<p>In the practice app, click the question mark at the top right or press F1 to see the instructions.</p>
-	
-	<div>
-    <a href="Sim/sim.html" title="Link to Practice Program" target="_blank"><h4>Link to Practice Program <br><img src="images/practiceapp.png" alt="practiceapp.png"/></h4></a>
-	</div>
-	
-	<div><h2>Language Lessons</h2></div>
-	
-	<div><a href="0to20.html" title="Link to Numbers 0 to 20" target="new"><h4>Link to Numbers 0 to 20 <br><img src="images/1to5.png" alt="1to5.png"/></h4></a></div>
+	<body>
+		<div class="contents">
+			<div class="home">
+				<h3><a href="index.html">Home</a></h3>
+			</div>
+			<div class="list">
+				<ul>
+					<li><a href="contentpages/practiceinfo.html">Practice App</a></li>
+					<li><a href="lessons/lessons.html">Lessons</a></li>
+					<li><a href="contentpages/games.html">Browser Games</a></li>
+					<li><a href="contentpages/downloads.html">Downloads</a></li>
+				</ul>
+			</div>
+		</div>
 
-  	<p>&nbsp;</p>
-	
-	<div><a href="21to40.html" title="Link to Numbers 21 to 40" target="new"><h4>Link to Numbers 21 to 40 <br><img src="images/5to20.png" height="50%" alt="5to20.png"/></h4></a></div>
-	
-	<p>&nbsp;</p>
-	
-	<div><a href="20to400.html" title="Link to Numbers 20 to 400" target="new"><h4>Link to Numbers 20 to 400 <br><img src="images/20to100.png" alt="20to100.png"/></h4></a></div>
-	
-	<p>&nbsp;</p>
-	
-	<div><h2>Kaktovik Numeral Basics</h2></div>
-	
-	<div><a href="numberbases.html" title = "Link to Number Bases" target = "new">
-		<h4>Link to Number Bases <br><img src="images/binary.png" alt="Binary numbers" /></h4>
-    </a></div>
-	
-	<div><a href="kaktovikintro.html" title = "Link to Intro to Kaktovik Numerals"><h4>Link to Intro to Kaktovik Numerals <br><img src="images/kaktoviknumerals.jpg"/></h4></a></div>
-	
+		<div class = "container">
+			<div class = "intro">
+				<h1>Iñupiaq Numbers Information</h1>
 
-	
-	
-	<div><h2>Browser Games Section</h2></div>
-	
-	<div><a href="quliliuqtainstructions.html" title = "Instructions for Quliliuqta"><h4>Instructions for Quliliuqta</h4></a></div>
-	
-	<div><a href='quliliuqta_hires/quliliuqta.html'><h4>Quliliuqta Up-to-Date Hi-Res Mode!<br><img src="images/quliliuqta.png"/></h4></a></div>
-	
-	<div><div><a href='quliliuqta/quliliuqta.html'><h5>quliliuqta's sadder, 720 res mode that fits in browsers on small screens without resizing <br></h5></a></div></div>
-	
-	<div><a href="km\km.html" title = "Bonus" target="_blank"><h4>Bonus Link to Number Munchers (click the game to play sound)<br><img src="images/number munchers logo.png"/></h4></a></div>
-	
-	<div><h2>Downloadable Games Section</h2></div>
-	
-	<div><h3>Quliliuqta for:</h3></div>
-	
-	<div><a href="downloadables/Quliliuqta.apk" title = "Quliliuqta Android" download><h4>Android (must be able to display at 1080)</h4></a></div>
+				<p>This is a preliminary source of information about the Iñupiaq vocabulary for numbers, as well as my (very, very preliminary) program for practicing this vocabulary. The program includes modes vocabulary and basic math operations using Kaktovik numerals. Additions and refinement to both the information and the program will occur as time permits. The program is available in certain information sections, as well as the link at the bottom.</p>
+			</div>
 
-	<div><a href="downloadables/Quliliuqta.exe" title = "Quliliuqta Windows" download><h4>Windows</h4></a></div>
-	
-</body>
+			<div>
+				<h2 id="sectionheader">Sections:</h2>
+				<div class="sectioninfo" id="practice">
+					<h3><a href="contentpages/practiceinfo.html">Practice App</a></h3>
+					<p>This is the practice app that started with my original Canvas class. It's very low frills at the moment, but you can use it to practice basic addition and subtraction, word conjugation and conversions.</p>
+				</div>
+				<div class="sectioninfo" id="lessons">
+					<h3><a href="lessons/lessons.html">Lessons</a></h3>
+					<p>These are the lessons that I developed with my original Canvas class. They discuss the basics of vocabulary for numbers in Iñupiaq and Kaktovik numerals.</p>
+				</div>
+				<div class="sectioninfo" id="games">
+					<h3><a href="contentpages/games.html">Browser Games</a></h3>
+					<p>These are the games that I have developed for Kaktovik numerals (so far). These have been tested with Google Chrome and very little else so far. They are also not optimized for mobile at all at the moment.</p>
+				</div>
+
+				<div class="sectioninfo" id="download">
+					<h3><a href="contentpages/downloads.html">Downloads</a></h3>
+					<p>These are downloadable versions of content that can be installed on your computer. At the moment, Quliliuqta is the only one available, and only on Windows and Android. The windows download will be flagged as suspicious at the moment.</p>
+				</div>
+			</div>
+		</div>
+	</body>
 </html>
